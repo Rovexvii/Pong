@@ -132,7 +132,7 @@ function update (s) {
     }
 
     muovi_pallina();
-    muovi_racchetta(s, TASTO_SU_SX, TASTO_GIU_SX);
+    //muovi_racchetta(s, TASTO_SU_SX, TASTO_GIU_SX);
     muovi_racchetta(s, TASTO_SU_DX, TASTO_GIU_DX);
     controlla_punto();
     PP.shapes.text_change(testo_punti, punti_sx + " - " + punti_dx);
